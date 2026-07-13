@@ -1,0 +1,33 @@
+.text-type {
+  display: inline-block;
+  white-space: pre-wrap;
+}
+
+.text-type__content {
+  background: linear-gradient(135deg, var(--text) 0%, var(--rose-soft) 55%, var(--turquoise) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.text-type__cursor {
+  margin-left: 0.2rem;
+  display: inline-block;
+  opacity: 1;
+  color: var(--turquoise);
+  font-weight: 400;
+  text-shadow: 0 0 18px rgba(101, 221, 207, 0.55);
+  background: none;
+  -webkit-background-clip: unset;
+  background-clip: unset;
+}
+
+.text-type__cursor--hidden {
+  display: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .text-type__cursor {
+    display: none;
+  }
+}
