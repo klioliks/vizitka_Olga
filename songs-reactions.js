@@ -2,8 +2,8 @@
 // Сервис CountAPI хранит числа бесплатно и без регистрации.
 // Твой выбор сохраняется в браузере — повторно нажимать не нужно.
 
-const REACTIONS_NAMESPACE = "mei-digital-world";
-const REACTIONS_STORAGE_KEY = "mei-song-reactions-v1";
+const REACTIONS_NAMESPACE = "olga-vizitka-songs";
+const REACTIONS_STORAGE_KEY = "olga-song-reactions-v1";
 
 function readStoredReactions() {
   try {

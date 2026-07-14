@@ -6,11 +6,29 @@
   <title>Ольга — digital-проекты с помощью ИИ</title>
   <meta
     name="description"
-    content="Персональная digital-визитка: сайты, боты, ИИ-интеграции и цифровые проекты. Учусь в школе нейросетей и СММ Ксении Барановой."
+    content="Персональная digital-визитка Ольги: сайты, боты, ИИ-интеграции и образовательный проект ии-помоги.рф."
+  />
+  <meta name="theme-color" content="#160f13" />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="ru_RU" />
+  <meta property="og:title" content="Ольга — digital-проекты с помощью ИИ" />
+  <meta
+    property="og:description"
+    content="Сайты, боты, ИИ-интеграции и живой проект ии-помоги.рф. Digital-визитка Ольги."
+  />
+  <meta property="og:image" content="/assets/me-and-mei.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;600;700&family=IBM+Plex+Mono:wght@500;600&family=Manrope:wght@500;600;700;800&display=swap"
+    rel="stylesheet"
   />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+  <a class="skip-link" href="#main">К содержанию</a>
   <div class="noise" aria-hidden="true"></div>
   <div class="aurora aurora-one" aria-hidden="true"></div>
   <div class="aurora aurora-two" aria-hidden="true"></div>
@@ -21,27 +39,37 @@
       <span>Ольга / digital</span>
     </a>
 
-    <nav class="nav" aria-label="Главная навигация">
+    <button
+      class="nav-toggle"
+      type="button"
+      aria-expanded="false"
+      aria-controls="site-nav"
+      aria-label="Открыть меню"
+    >
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav id="site-nav" class="nav" aria-label="Главная навигация">
       <a href="#top">Главная</a>
       <a href="#services">Чем полезна</a>
-      <a href="#skills">Навыки</a>
       <a href="#projects">Проекты</a>
-      <a href="#mei">Мей</a>
+      <a href="#about">Кто я</a>
       <a href="#contacts">Контакты</a>
     </nav>
   </header>
 
-  <main id="top">
-    <section class="hero section-shell">
+  <main id="main">
+    <section id="top" class="hero section-shell">
       <div class="hero-content reveal">
         <p class="eyebrow">digital-визитка · ИИ · сайты · боты</p>
         <h1 class="hero-title">
           Привет, я Ольга. Я создаю digital-проекты с помощью ИИ.
         </h1>
         <p class="hero-subtitle">
-          Я учусь в школе нейросетей и СММ Ксении Барановой и собираю своё профессиональное
-          пространство: сайты, ботов, визуальные идеи, тексты и цифровые инструменты, которые
-          помогают людям и бизнесу становиться понятнее, ближе и современнее.
+          Собираю профессиональное пространство: сайты, ботов, тексты и цифровые инструменты,
+          которые делают идеи понятнее и ближе к человеку.
         </p>
 
         <p class="hero-positioning">
@@ -50,7 +78,6 @@
 
         <div class="hero-actions" aria-label="Быстрые переходы">
           <a class="button primary" href="#projects">Мои проекты</a>
-          <a class="button ghost" href="#skills">Навыки</a>
           <a class="button ghost" href="#contacts">Связаться со мной</a>
         </div>
       </div>
@@ -66,6 +93,8 @@
               muted
               playsinline
               preload="metadata"
+              width="460"
+              height="460"
               aria-label="Короткое видео: я с Мей"
             ></video>
           </div>
@@ -75,13 +104,10 @@
 
     <section id="services" class="section-shell services-section">
       <div class="section-heading reveal">
-        <p class="eyebrow">чем я могу быть полезна</p>
         <h2>Чем я могу быть полезна</h2>
         <p>
-          Я помогаю экспертам, небольшим проектам и бизнесу оформлять идеи в понятные
-          digital-решения: страницы, сайты, ботов, тексты, визуальные концепции и простые
-          автоматизации. Моя сильная сторона — видеть не только кнопку или блок, а смысл
-          проекта: зачем он нужен, кому помогает и как должен ощущаться для человека.
+          Помогаю экспертам и небольшим проектам оформить идею в понятное digital-решение:
+          страницу, бота, текст или простую автоматизацию — с фокусом на смысл, а не только на кнопки.
         </p>
       </div>
 
@@ -117,8 +143,8 @@
           <span class="service-icon" aria-hidden="true">◇</span>
           <h3>Digital-упаковка</h3>
           <p>
-            Помогаю собрать разрозненные идеи в понятную систему: кто вы, что предлагаете,
-            какие проекты развиваете и как об этом рассказать.
+            Помогаю собрать разрозненные идеи в понятную систему: кто вы, что предлагаете
+            и как об этом рассказать.
           </p>
         </article>
       </div>
@@ -126,12 +152,10 @@
 
     <section id="skills" class="section-shell skills-section">
       <div class="section-heading reveal">
-        <p class="eyebrow">мои навыки</p>
         <h2>Мои навыки</h2>
         <p class="skills-note">
-          Я пока не называю себя экспертом с огромным опытом, но уже умею превращать идею
-          в работающий прототип, задавать правильные вопросы проекту и собирать из текста,
-          визуала и логики цельное digital-пространство.
+          Умею превращать идею в работающий прототип: соединять текст, визуал и логику
+          в цельное digital-пространство.
         </p>
       </div>
 
@@ -141,17 +165,15 @@
         <li class="skill-badge reveal delay-1">работа с Cursor и ИИ-инструментами</li>
         <li class="skill-badge reveal delay-2">проектирование структуры страницы</li>
         <li class="skill-badge reveal delay-2">написание текстов для сайтов и постов</li>
-        <li class="skill-badge reveal delay-2">создание концепций для digital-проектов</li>
-        <li class="skill-badge reveal delay-3">разработка логики Telegram/VK-ботов</li>
+        <li class="skill-badge reveal delay-2">концепции digital-проектов</li>
+        <li class="skill-badge reveal delay-3">логика Telegram/VK-ботов</li>
         <li class="skill-badge reveal delay-3">интеграция ИИ в рабочие процессы</li>
-        <li class="skill-badge reveal delay-3">работа с визуальным стилем и атмосферой проекта</li>
-        <li class="skill-badge reveal">умение превращать идею в понятный прототип</li>
+        <li class="skill-badge reveal">визуальный стиль и атмосфера проекта</li>
       </ul>
     </section>
 
     <section id="projects" class="section-shell projects-section">
       <div class="section-heading reveal">
-        <p class="eyebrow">мои проекты</p>
         <h2>Мои проекты</h2>
         <p>
           Главный реализованный кейс — образовательный сайт про ИИ в учёбе.
@@ -164,10 +186,12 @@
           <span class="project-type">Реализованный продукт · сайт</span>
           <h3>ИИ-помоги.рф — «ИИ в обучении»</h3>
           <p>
-            Большой живой проект: сайт-проводник о том, как учиться с нейросетями умно
-            и безопасно — для школы, экзаменов и выбора профессии. Внутри есть тест,
-            учебный маршрут, мастерская, раздел «Выдохни» и материалы, которые помогают
-            проверять ответы ИИ и не терять самостоятельное мышление.
+            Живой сайт-проводник: как учиться с нейросетями умно и безопасно —
+            для школы, экзаменов и выбора профессии. Внутри — тест, маршрут, мастерская
+            и раздел «Выдохни».
+          </p>
+          <p class="project-featured-role">
+            Моя роль: идея, структура, тексты, визуальная логика и сборка сайта.
           </p>
           <ul class="project-featured-tags" aria-label="Что есть на сайте">
             <li>Тест</li>
@@ -179,7 +203,7 @@
         </div>
         <div class="project-featured-action">
           <p class="project-featured-note">
-            Это мой главный реализованный digital-проект: от идеи и структуры до живого сайта.
+            Главный реализованный digital-проект: от идеи до живого сайта.
           </p>
           <a
             class="button primary"
@@ -192,83 +216,72 @@
 
       <div class="project-grid">
         <article class="project-card reveal">
-          <span class="project-type">Сайт / личный бренд / учебный проект</span>
+          <span class="project-type">Сайт / личный бренд</span>
           <h3>Персональная digital-визитка</h3>
           <p>
-            Моя первая персональная страница, где я объединила рассказ о себе, проекты,
-            визуальный стиль, персонажа Мей и навигацию по моему цифровому пространству.
-            Это не просто страница-знакомство, а прототип личного digital-бренда.
+            Эта страница: рассказ о себе, проекты, стиль и персонаж Мей —
+            прототип личного digital-бренда.
           </p>
+          <a href="#top">вы здесь</a>
         </article>
 
         <article class="project-card reveal delay-1">
-          <span class="project-type">Digital-персонаж / помощник</span>
+          <span class="project-type">Digital-персонаж</span>
           <h3>Мей</h3>
           <p>
-            Мей — мой цифровой персонаж и будущий помощник в проектах. Она помогает сделать
-            digital-пространство более живым, тёплым и узнаваемым. Через Мей я исследую,
-            как персонаж может сопровождать пользователя в сайтах, практиках, постах и приложениях.
+            Цифровой персонаж и будущий помощник в проектах — делает пространство
+            более живым, тёплым и узнаваемым.
           </p>
-          <a href="#mei" aria-label="Познакомиться с Мей">познакомиться с Мей</a>
+          <button
+            type="button"
+            class="project-card-action"
+            data-open-modal="mei-modal"
+            aria-haspopup="dialog"
+            aria-controls="mei-modal"
+          >
+            познакомиться с Мей
+          </button>
         </article>
 
         <article class="project-card reveal delay-2">
-          <span class="project-type">AI-музыка / творческий проект</span>
+          <span class="project-type">AI-музыка</span>
           <h3>Песни из состояний</h3>
           <p>
-            Музыкальный проект, где с помощью нейросетей я превращаю состояния, тексты и личные
-            смыслы в песни. Это часть моего исследования: как ИИ может помогать человеку
-            выражать себя честно, бережно и творчески.
+            Треки, собранные с нейросетями из текстов и настроений —
+            живой плеер прямо на странице.
           </p>
+          <button
+            type="button"
+            class="project-card-action"
+            data-open-modal="songs-modal"
+            aria-haspopup="dialog"
+            aria-controls="songs-modal"
+          >
+            слушать песни
+          </button>
         </article>
 
         <article class="project-card reveal delay-3">
-          <span class="project-type">Бот / учебная логика</span>
-          <h3>Прототип бота для консультации клиентов</h3>
+          <span class="project-type">Бот · учебный прототип</span>
+          <h3>Бот для консультации клиентов</h3>
           <p>
-            Учебный прототип Telegram/VK-бота, который может приветствовать клиента, задавать
-            уточняющие вопросы, помогать выбрать услугу и передавать заявку менеджеру.
-            Основной фокус — логика диалога, понятный сценарий и бережная передача данных человеку.
+            Сценарий Telegram/VK-бота: приветствие, уточняющие вопросы, выбор услуги
+            и передача заявки человеку.
           </p>
         </article>
-      </div>
-    </section>
-
-    <section id="mei" class="section-shell mei-section">
-      <div class="mei-portrait reveal">
-        <img src="assets/mei.jpg" alt="Мей — digital-персонаж и визуальный проводник" />
-      </div>
-
-      <div class="section-copy reveal delay-1">
-        <p class="eyebrow">знакомьтесь, это Мей</p>
-        <h2>Знакомьтесь, это Мей</h2>
-        <p>
-          Мей — мой digital-персонаж и визуальный проводник по проектам. Она помогает сделать
-          пространство узнаваемым, тёплым и человечным. Для меня Мей — пример того, как даже
-          небольшой персонаж может стать частью бренда, интерфейса, дневника, приложения или бота.
-        </p>
-        <p class="mei-extra">
-          Я хочу развивать Мей как помощника, который не давит экспертностью, а идёт рядом:
-          задаёт вопросы, помогает разобраться в состоянии, выбрать следующий шаг и не потеряться
-          в хаосе.
-        </p>
       </div>
     </section>
 
     <section id="about" class="section-shell about-section">
       <div class="section-copy reveal">
-        <p class="eyebrow">кто я</p>
         <h2>Кто я</h2>
         <p>
-          Я — человек, который учится собирать опыт в форму: сайт, текст, песню, бота,
-          визуальную идею или маленький цифровой инструмент. Мне интересно создавать проекты,
-          в которых технологии не выглядят холодными, а помогают человеку почувствовать ясность,
-          поддержку и движение.
+          Учусь собирать опыт в форму: сайт, текст, песню, бота или маленький цифровой инструмент.
+          Мне важны проекты, где технологии не холодные, а помогают человеку понять себя и двигаться дальше.
         </p>
         <p>
-          Сейчас я развиваюсь в направлении нейросетей, СММ и вайб-кодинга. Учусь работать
-          с ИИ не как с волшебной кнопкой, а как с партнёром в создании структуры, смыслов,
-          визуала, текстов и рабочих digital-решений.
+          Развиваюсь в нейросетях, СММ и вайб-кодинге. Работаю с ИИ как с партнёром —
+          по структуре, смыслам, визуалу и digital-решениям.
         </p>
       </div>
 
@@ -276,31 +289,34 @@
         <span class="panel-icon">✦</span>
         <h3>Живое, но собранное</h3>
         <p>
-          Это не сухое резюме и не сказка. Это digital-пространство, где видно, кто я,
-          чему учусь и какие проекты уже собираю — с теплом, честностью и вниманием к смыслу.
+          Не сухое резюме и не сказка — пространство, где видно, кто я, чему учусь
+          и какие проекты уже собираю.
         </p>
       </aside>
     </section>
 
     <section id="contacts" class="section-shell contacts-section">
       <div class="section-heading reveal">
-        <p class="eyebrow">связаться со мной</p>
         <h2>Связаться со мной</h2>
         <p>
-          Я открыта к учебным, творческим и небольшим digital-проектам: сайтам, ботам,
-          упаковке идей, текстам, визуальным концепциям и ИИ-экспериментам.
+          Открыта к учебным, творческим и небольшим digital-проектам: сайтам, ботам,
+          текстам, визуальным концепциям и ИИ-экспериментам.
         </p>
       </div>
 
       <div class="contact-grid">
         <a
           class="contact-card reveal"
-          href="tg://resolve?domain=Olga_Krassi"
+          id="telegram-link"
+          href="https://t.me/Olga_Krassi"
+          data-tg="tg://resolve?domain=Olga_Krassi"
+          target="_blank"
+          rel="noopener noreferrer"
           aria-label="Написать в Telegram"
         >
           <span class="contact-label">Telegram</span>
           <span class="contact-value">Написать в Telegram</span>
-          <span class="contact-hint">откроется в приложении</span>
+          <span class="contact-hint">приложение или t.me · если не открывается — напишите на почту</span>
         </a>
 
         <a
@@ -310,7 +326,7 @@
         >
           <span class="contact-label">Email</span>
           <span class="contact-value">Написать на почту</span>
-          <span class="contact-hint">для учебных и digital-проектов</span>
+          <span class="contact-hint">надёжный способ связаться</span>
         </a>
       </div>
     </section>
@@ -321,6 +337,191 @@
     <a href="#top">вернуться наверх ↑</a>
   </footer>
 
+  <div
+    id="mei-modal"
+    class="content-modal"
+    role="dialog"
+    aria-modal="true"
+    aria-labelledby="mei-modal-title"
+    hidden
+  >
+    <div class="content-modal-backdrop" data-close-modal tabindex="-1"></div>
+    <div class="content-modal-panel mei-modal-panel" role="document">
+      <button type="button" class="content-modal-close" data-close-modal aria-label="Закрыть">×</button>
+      <div class="mei-modal-layout">
+        <div class="mei-portrait">
+          <img
+            src="assets/mei.jpg"
+            alt="Мей — digital-персонаж и визуальный проводник"
+            width="480"
+            height="600"
+          />
+        </div>
+        <div class="section-copy">
+          <h2 id="mei-modal-title">Знакомьтесь, это Мей</h2>
+          <p>
+            Мей — мой digital-персонаж и визуальный проводник. Пример того, как персонаж
+            может стать частью бренда, интерфейса, приложения или бота.
+          </p>
+          <p class="mei-extra">
+            Хочу развивать Мей как помощника рядом: без давления экспертностью,
+            с вопросами и ясным следующим шагом.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div
+    id="songs-modal"
+    class="content-modal"
+    role="dialog"
+    aria-modal="true"
+    aria-labelledby="songs-modal-title"
+    hidden
+  >
+    <div class="content-modal-backdrop" data-close-modal tabindex="-1"></div>
+    <div class="content-modal-panel" role="document">
+      <div class="content-modal-header">
+        <div>
+          <p class="eyebrow">AI-музыка</p>
+          <h2 id="songs-modal-title">Песни из состояний</h2>
+          <p class="songs-lead">
+            Музыка с нейросетями: про выбор себя, внутреннюю силу и мягкие эксперименты со звуком.
+          </p>
+        </div>
+        <button type="button" class="content-modal-close" data-close-modal aria-label="Закрыть">×</button>
+      </div>
+
+      <div class="song-grid">
+        <article class="song-card">
+          <span class="song-card-icon" aria-hidden="true">♪</span>
+          <span class="song-tag">состояние</span>
+          <h3>Я снова живая</h3>
+          <p>
+            Про момент, когда внутри снова появляется дыхание и ощущение:
+            я ещё здесь, я выбираю себя.
+          </p>
+
+          <div class="song-player" data-suno-url="https://suno.com/s/jrTqSbV2nlU24zVt">
+            <div class="song-player-shell">
+              <button type="button" class="song-player-toggle" aria-label="Воспроизвести Я снова живая" disabled>
+                <span class="song-player-toggle-icon" aria-hidden="true">▶</span>
+              </button>
+              <div class="song-player-body">
+                <div class="song-player-track">
+                  <img class="song-player-art" alt="" width="52" height="52" hidden />
+                  <div class="song-player-wave"></div>
+                </div>
+                <input type="range" class="song-player-seek" min="0" max="100" value="0" aria-label="Позиция трека" disabled />
+                <div class="song-player-times">
+                  <span class="song-player-current">0:00</span>
+                  <span class="song-player-duration">—:——</span>
+                </div>
+              </div>
+            </div>
+            <p class="song-player-status">Подгружаем трек…</p>
+            <audio class="song-player-audio" preload="metadata"></audio>
+          </div>
+
+          <div class="song-reactions" data-song-id="zhivaya">
+            <p class="song-reactions-label">ваша реакция</p>
+            <div class="song-reactions-list" role="group" aria-label="Реакции на песню Я снова живая">
+              <button type="button" class="song-reaction" data-reaction="heart" aria-pressed="false" aria-label="Сердечко">💗 <span class="song-reaction-count">0</span></button>
+              <button type="button" class="song-reaction" data-reaction="fire" aria-pressed="false" aria-label="Огонёк">🔥 <span class="song-reaction-count">0</span></button>
+            </div>
+          </div>
+
+          <a class="button ghost song-card-link" href="https://suno.com/s/jrTqSbV2nlU24zVt" target="_blank" rel="noopener noreferrer">Открыть на Suno</a>
+        </article>
+
+        <article class="song-card">
+          <span class="song-card-icon" aria-hidden="true">✦</span>
+          <span class="song-tag">состояние</span>
+          <h3>Расти из света</h3>
+          <p>
+            Из внутреннего пространства: то, что не всегда хочется объяснять словами,
+            но можно прожить через музыку.
+          </p>
+
+          <div class="song-player" data-suno-url="https://suno.com/s/JcyzRz4keVPnZxWV">
+            <div class="song-player-shell">
+              <button type="button" class="song-player-toggle" aria-label="Воспроизвести Расти из света" disabled>
+                <span class="song-player-toggle-icon" aria-hidden="true">▶</span>
+              </button>
+              <div class="song-player-body">
+                <div class="song-player-track">
+                  <img class="song-player-art" alt="" width="52" height="52" hidden />
+                  <div class="song-player-wave"></div>
+                </div>
+                <input type="range" class="song-player-seek" min="0" max="100" value="0" aria-label="Позиция трека" disabled />
+                <div class="song-player-times">
+                  <span class="song-player-current">0:00</span>
+                  <span class="song-player-duration">—:——</span>
+                </div>
+              </div>
+            </div>
+            <p class="song-player-status">Подгружаем трек…</p>
+            <audio class="song-player-audio" preload="metadata"></audio>
+          </div>
+
+          <div class="song-reactions" data-song-id="svet">
+            <p class="song-reactions-label">ваша реакция</p>
+            <div class="song-reactions-list" role="group" aria-label="Реакции на песню Расти из света">
+              <button type="button" class="song-reaction" data-reaction="heart" aria-pressed="false" aria-label="Сердечко">💗 <span class="song-reaction-count">0</span></button>
+              <button type="button" class="song-reaction" data-reaction="fire" aria-pressed="false" aria-label="Огонёк">🔥 <span class="song-reaction-count">0</span></button>
+            </div>
+          </div>
+
+          <a class="button ghost song-card-link" href="https://suno.com/s/JcyzRz4keVPnZxWV" target="_blank" rel="noopener noreferrer">Открыть на Suno</a>
+        </article>
+
+        <article class="song-card">
+          <span class="song-card-icon" aria-hidden="true">◎</span>
+          <span class="song-tag">эксперимент</span>
+          <h3>Гимн нейросетей</h3>
+          <p>
+            Первый тёплый эксперимент с AI-музыкой: немного игры и ощущение,
+            что цифровая магия уже рядом.
+          </p>
+
+          <div class="song-player" data-suno-url="https://suno.com/s/hj5vnQceQfLWvqGe">
+            <div class="song-player-shell">
+              <button type="button" class="song-player-toggle" aria-label="Воспроизвести Гимн нейросетей" disabled>
+                <span class="song-player-toggle-icon" aria-hidden="true">▶</span>
+              </button>
+              <div class="song-player-body">
+                <div class="song-player-track">
+                  <img class="song-player-art" alt="" width="52" height="52" hidden />
+                  <div class="song-player-wave"></div>
+                </div>
+                <input type="range" class="song-player-seek" min="0" max="100" value="0" aria-label="Позиция трека" disabled />
+                <div class="song-player-times">
+                  <span class="song-player-current">0:00</span>
+                  <span class="song-player-duration">—:——</span>
+                </div>
+              </div>
+            </div>
+            <p class="song-player-status">Подгружаем трек…</p>
+            <audio class="song-player-audio" preload="metadata"></audio>
+          </div>
+
+          <div class="song-reactions" data-song-id="gimn">
+            <p class="song-reactions-label">ваша реакция</p>
+            <div class="song-reactions-list" role="group" aria-label="Реакции на песню Гимн нейросетей">
+              <button type="button" class="song-reaction" data-reaction="heart" aria-pressed="false" aria-label="Сердечко">💗 <span class="song-reaction-count">0</span></button>
+              <button type="button" class="song-reaction" data-reaction="fire" aria-pressed="false" aria-label="Огонёк">🔥 <span class="song-reaction-count">0</span></button>
+            </div>
+          </div>
+
+          <a class="button ghost song-card-link" href="https://suno.com/s/hj5vnQceQfLWvqGe" target="_blank" rel="noopener noreferrer">Открыть на Suno</a>
+        </article>
+      </div>
+    </div>
+  </div>
+
   <script src="script.js"></script>
+  <script src="songs-player.js"></script>
+  <script src="songs-reactions.js"></script>
 </body>
 </html>
