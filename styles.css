@@ -299,6 +299,11 @@ h3 {
   min-height: 500px;
 }
 
+.hero-avatar-wrap {
+  width: min(460px, 100%);
+  margin-left: auto;
+}
+
 .image-card,
 .mei-portrait {
   position: relative;
@@ -702,7 +707,11 @@ h3 {
 
   .hero-visual {
     min-height: auto;
-    padding-bottom: 5.5rem;
+    padding-bottom: 0;
+  }
+
+  .hero-avatar-wrap {
+    margin: 0 auto;
   }
 
   .avatar-card {
