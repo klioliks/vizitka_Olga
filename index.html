@@ -55,10 +55,19 @@
         </div>
       </div>
 
-      <div class="hero-visual reveal delay-1" aria-label="Аватарка с Мей">
+      <div class="hero-visual reveal delay-1" aria-label="Видео: я с Мей">
         <div class="hero-avatar-wrap">
           <div class="image-card avatar-card">
-            <img src="assets/me-and-mei.jpg" alt="Аватарка: я с Мей" />
+            <video
+              class="avatar-video"
+              src="assets/hero-mei.mp4"
+              poster="assets/me-and-mei.jpg"
+              autoplay
+              muted
+              playsinline
+              preload="metadata"
+              aria-label="Короткое видео: я с Мей"
+            ></video>
           </div>
         </div>
       </div>
@@ -145,10 +154,41 @@
         <p class="eyebrow">мои проекты</p>
         <h2>Мои проекты</h2>
         <p>
-          Учебные, личные и первые реализованные проекты — честно о том, что уже собрано
-          и куда я двигаюсь дальше.
+          Главный реализованный кейс — образовательный сайт про ИИ в учёбе.
+          Рядом — учебные и личные проекты, через которые я собираю свой digital-путь.
         </p>
       </div>
+
+      <article class="project-featured reveal">
+        <div class="project-featured-copy">
+          <span class="project-type">Реализованный продукт · сайт</span>
+          <h3>ИИ-помоги.рф — «ИИ в обучении»</h3>
+          <p>
+            Большой живой проект: сайт-проводник о том, как учиться с нейросетями умно
+            и безопасно — для школы, экзаменов и выбора профессии. Внутри есть тест,
+            учебный маршрут, мастерская, раздел «Выдохни» и материалы, которые помогают
+            проверять ответы ИИ и не терять самостоятельное мышление.
+          </p>
+          <ul class="project-featured-tags" aria-label="Что есть на сайте">
+            <li>Тест</li>
+            <li>Маршрут</li>
+            <li>Мастерская</li>
+            <li>Выдохни</li>
+            <li>Гимн и приложение</li>
+          </ul>
+        </div>
+        <div class="project-featured-action">
+          <p class="project-featured-note">
+            Это мой главный реализованный digital-проект: от идеи и структуры до живого сайта.
+          </p>
+          <a
+            class="button primary"
+            href="https://ии-помоги.рф"
+            target="_blank"
+            rel="noopener noreferrer"
+          >Открыть ии-помоги.рф</a>
+        </div>
+      </article>
 
       <div class="project-grid">
         <article class="project-card reveal">
@@ -173,22 +213,6 @@
         </article>
 
         <article class="project-card reveal delay-2">
-          <span class="project-type">Telegram-дневник / контент-проект</span>
-          <h3>Когда задолбалась</h3>
-          <p>
-            Личный Telegram-дневник о живом пути к себе, усталости, честности, маленьких шагах
-            и возвращении к внутренней опоре. Проект помогает мне тренировать голос, стиль,
-            тексты и контакт с аудиторией.
-          </p>
-          <a
-            href="https://t.me/kogda_zadolbalas"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Открыть Telegram-канал Когда задолбалась"
-          >открыть канал</a>
-        </article>
-
-        <article class="project-card reveal delay-3">
           <span class="project-type">AI-музыка / творческий проект</span>
           <h3>Песни из состояний</h3>
           <p>
@@ -198,7 +222,7 @@
           </p>
         </article>
 
-        <article class="project-card reveal">
+        <article class="project-card reveal delay-3">
           <span class="project-type">Бот / учебная логика</span>
           <h3>Прототип бота для консультации клиентов</h3>
           <p>
@@ -271,36 +295,22 @@
       <div class="contact-grid">
         <a
           class="contact-card reveal"
-          href="https://t.me/ВСТАВИТЬ_НИК"
-          target="_blank"
-          rel="noopener noreferrer"
+          href="tg://resolve?domain=Olga_Krassi"
           aria-label="Написать в Telegram"
         >
           <span class="contact-label">Telegram</span>
-          <span class="contact-value">@ВСТАВИТЬ_НИК</span>
-          <span class="contact-hint">замените на свой ник</span>
+          <span class="contact-value">Написать в Telegram</span>
+          <span class="contact-hint">откроется в приложении</span>
         </a>
 
         <a
           class="contact-card reveal delay-1"
-          href="mailto:ВСТАВИТЬ_ПОЧТУ"
-          aria-label="Написать на email"
+          href="mailto:klioliks@mail.ru"
+          aria-label="Написать на почту"
         >
           <span class="contact-label">Email</span>
-          <span class="contact-value">ВСТАВИТЬ_ПОЧТУ</span>
-          <span class="contact-hint">замените на свою почту</span>
-        </a>
-
-        <a
-          class="contact-card reveal delay-2"
-          href="ВСТАВИТЬ_ССЫЛКУ"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="Другие ссылки"
-        >
-          <span class="contact-label">Другие ссылки</span>
-          <span class="contact-value">ВСТАВИТЬ_ССЫЛКУ</span>
-          <span class="contact-hint">портфолио, соцсети, канал</span>
+          <span class="contact-value">Написать на почту</span>
+          <span class="contact-hint">для учебных и digital-проектов</span>
         </a>
       </div>
     </section>
